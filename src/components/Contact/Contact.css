@@ -1,0 +1,14 @@
+.Contact {
+    padding-block: 80px 50px;
+}
+.Contact *:not(button) {
+    /* width: 100%; */
+    margin-bottom: 15px;
+}
+.Contact button {
+    margin-top: 20px;
+    padding: 20px 30px;
+    background-color: rgb(39, 174, 96);
+    color: #fff;
+    font-weight: bold;
+}

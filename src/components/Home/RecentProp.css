@@ -1,0 +1,23 @@
+.RecProp {
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.RecentProp {
+    padding-block: 80px;
+}
+.price-button {
+    background-color: #27ae60;
+}
+.SingleRecProp img {
+    width: 100%;
+    height: 200px;
+}
+.rent {
+    background-color: rgba(255, 152, 0, 0.1);
+    color: rgb(255, 152, 0);
+}
+.sale {
+    background-color: rgba(37, 181, 121, 0.1);
+    color: rgb(37, 181, 121);
+}

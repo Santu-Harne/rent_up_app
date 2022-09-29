@@ -1,0 +1,15 @@
+.singleProp img {
+    width: 65px;
+}
+.singleProp h4 {
+    font-size: 16px;
+}
+.PropGrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+}
+.PropType {
+    background-color: #f7f9fc;
+    padding-block: 100px;
+}

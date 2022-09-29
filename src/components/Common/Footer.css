@@ -1,0 +1,22 @@
+.Footer {
+    background-color: #1c2736;
+}
+.Footer img {
+    width: 200px;
+}
+.Footer input {
+    padding: 15px !important;
+    font-size: 20px !important;
+    max-width: 100%;
+}
+.Footer button {
+    background-color: rgb(39, 174, 96);
+}
+.Footer ul {
+    list-style-type: none;
+    padding: 0% !important;
+}
+.container-footer {
+    width: 80%;
+    margin-inline: auto;
+}

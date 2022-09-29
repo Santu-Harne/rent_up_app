@@ -1,0 +1,13 @@
+.search-section {
+    background: url(/public/images/background1.png);
+    background-size: cover;
+    background-position: center;
+    padding-block: 155px 60px;
+    width: 100%;
+}
+.src-btn {
+    background-color: #27ae60 !important;
+}
+.fa-search {
+    font-size: 10px;
+}

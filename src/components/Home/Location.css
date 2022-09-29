@@ -1,0 +1,29 @@
+.Location {
+    padding-block: 100px;
+}
+.SingleLocation img {
+    width: 100%;
+    border-radius: 5px;
+}
+.SingleLocation::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    scale: 0;
+    position: absolute;
+    left: 0%;
+    border-radius: 5px;
+    background: rgba(15, 28, 47, 0.5);
+    transition: all 0.5s ease-in-out;
+}
+.SingleLocation:hover::after {
+    scale: 0.9;
+}
+.SingleLocation > div {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    z-index: 2;
+}

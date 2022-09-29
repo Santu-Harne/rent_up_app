@@ -1,0 +1,54 @@
+.Agents {
+    padding-block: 100px;
+    background-color: #f7f9fc;
+}
+.SingleAgent img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    outline: 5px solid #edf0f5;
+    outline-offset: 15px;
+}
+.SingleAgent:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.329);
+    transition: all 0.3s ease-in-out;
+}
+.list-btn {
+    background-color: #ff6922;
+    padding: 20px 40px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.SingleAgent > .img-div i {
+    position: absolute;
+    font-size: 23px;
+    top: 50px;
+    right: -5px;
+}
+.agent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.social-med > div i {
+    font-size: 20px;
+    background-color: rgba(128, 128, 128, 0.233);
+    padding: 15px;
+    margin-block: 25px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: rgb(80, 78, 78);
+}
+.social-med > div i:hover {
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.btn-msg,
+.btn-cal {
+    background-color: #27ae60;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 25px;
+}

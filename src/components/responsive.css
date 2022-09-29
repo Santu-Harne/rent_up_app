@@ -1,0 +1,77 @@
+@media (max-width: 991px) {
+    .navbar-nav li.nav-item:not(.sign-btn) {
+        padding-inline-end: 5px !important;
+    }
+    .PropGrid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .RecProp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .SingleLocation > div {
+        top: 10%;
+        font-size: 15px;
+    }
+    .agent {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .package-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 767px) {
+    .nav-item {
+        padding-left: 50px;
+    }
+    .navbar-nav {
+        background: linear-gradient(rgb(245, 141, 141), rgb(174, 174, 243));
+        border-radius: 0 40px 0 40px;
+    }
+    .form .form-group:nth-child(3) {
+        border: none !important;
+    }
+    .PropGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .RecProp {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .SingleLocation > div {
+        top: 10%;
+        font-size: 15px;
+    }
+    .package-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 576px) {
+    .form .form-group {
+        border: none;
+    }
+    .search-form {
+        width: 80%;
+        margin-inline: auto;
+    }
+    .search-section {
+        padding-top: 50px;
+    }
+    .RecProp {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .RecentProp,
+    .Location,
+    .Agents,
+    .Package,
+    .Footer {
+        margin-inline: auto;
+        width: 80%;
+    }
+    .SingleLocation > div {
+        top: 30%;
+    }
+    .agent {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

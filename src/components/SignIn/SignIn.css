@@ -1,0 +1,13 @@
+.icons i {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-block: 15px;
+    margin-inline: 10px;
+    border: 1px solid grey;
+    transition: all 0.3s;
+}
+.icons i:hover {
+    background-color: black;
+    color: #fff;
+}
